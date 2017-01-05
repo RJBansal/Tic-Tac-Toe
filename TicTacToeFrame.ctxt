@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TicTacToeFrame()
+comment0.text=\ \r\n\ Creates\ a\ new\ Tic\ tac\ toe\ board\ and\ creates\ buttons\ and\ gui\ for\ it.\ Creates\ a\ menu\ bar\ and\ sets\ keyboard\ shortcuts\ for\ new\ game\ and\ quit.\ \r\n\ No\ input\ parameters\r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Checks\ for\ buttons\ pressed\ and\ if\ its\ a\ menu\ item,\ performs\ appropriate\ function.\ If\ its\ a\ button,\ disables\ and\ sets\ text\ for\ it.\ If\ winner\ is\ declared,\ disables\ \r\n\ all\ the\ buttons\ and\ outputs\ dialog\ for\ winner.\ \r\n
+comment2.params=b
+comment2.target=boolean\ haveWinner(javax.swing.JButton[][])
+comment2.text=\r\n\ Checks\ winner\ by\ checking\ the\ entire\ board\ if\ more\ than\ 4\ turns\ occured.\ Checks\ by\ compaing\ text\ of\ each\ button\ \r\n\ Input\ parameter\ is\ the\ array\ of\ buttons\ \r\n\ Output\ -\ boolean\ \r\n
+numComments=3
